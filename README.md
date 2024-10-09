@@ -11,7 +11,7 @@ After installing the Recipe, customize the settings on this page:
 ## Download recipe
 
 ```shell
-composer require droptica/ddr_security_automated_logout
+composer require droptica/ddr_security_session_limit
 ```
 
 ## Installation
