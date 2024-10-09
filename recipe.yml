@@ -1,0 +1,11 @@
+name: 'DDR Security: Limit the number of simultaneous sessions per user'
+type: 'Droptica’s Drupal Recipes'
+description: "Limit the number of simultaneous sessions per user"
+
+install:
+  - session_limit
+  - user
+
+config:
+  import:
+    session_limit: '*'

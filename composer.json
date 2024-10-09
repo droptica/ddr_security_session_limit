@@ -1,0 +1,17 @@
+{
+    "name": "droptica/ddr_security_session_limit",
+    "type": "drupal-recipe",
+    "description": "Droptica’s Drupal Recipes: Limit the number of simultaneous sessions per user",
+    "keywords": ["recipe", "Drupal recipes", "Drupal recipe"],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.3",
+        "drupal/session_limit": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Droptica",
+            "role": "Company"
+        }
+    ]
+}
